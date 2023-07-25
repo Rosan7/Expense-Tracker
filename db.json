@@ -1,0 +1,57 @@
+{
+    "accessKey": "d57e8488-97a3-11ed-991b-7c70dbcc65c7",
+    "secretKey": "db5714bc-ba7a-46f2-aef4-0a9d1ac1c850",
+    "item_type": [
+        "Food",
+        "Beverages",
+        "Clothing",
+        "Stationaries",
+        "Wearables",
+        "Electronics Accessories"
+    ],
+    "users": [
+        {
+            "name": "Soham",
+            "email": "soham2001@gmail.com",
+            "password": "1234122",
+            "username": "soham10",
+            "purchases": {}
+        },
+        {
+            "name": "Rosan",
+            "email": "rosan2002@gmail.com",
+            "password": "1234123",
+            "username": "rosan7",
+            "purchases": {
+                "2023-01-19": [
+                    {
+                        "user_idx": 1,
+                        "item_name": "Whey Protein",
+                        "item_type": "Nutrition",
+                        "item_price": "1900"
+                    },
+                    {
+                        "user_idx": 1,
+                        "item_name": "Boost",
+                        "item_type": "Nutrition",
+                        "item_price": "345"
+                    }
+                ],
+                "2023-01-18": [
+                    {
+                        "user_idx": 1,
+                        "item_name": "Burbon",
+                        "item_type": "Taste",
+                        "item_price": "20"
+                    },
+                    {
+                        "user_idx": 1,
+                        "item_name": "Whey Protein",
+                        "item_type": "Nutrition",
+                        "item_price": "20"
+                    }
+                ]
+            }
+        }
+    ]
+}
